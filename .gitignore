@@ -1,0 +1,7 @@
+node_modules/
+out/
+analysis/vocals.wav
+analysis/demucs/
+__pycache__/
+.venv/
+*.log

@@ -1,0 +1,1366 @@
+[
+ {
+  "index": 1,
+  "singer": "Rina",
+  "section": "Rina xori (1a)",
+  "line": "Xayolimdasan nega o'zing",
+  "start": 27.5,
+  "end": 30.98,
+  "words": [
+   {
+    "w": "Xayolimdasan",
+    "start": 27.5,
+    "end": 29.44
+   },
+   {
+    "w": "nega",
+    "start": 29.44,
+    "end": 30.25
+   },
+   {
+    "w": "o'zing",
+    "start": 30.25,
+    "end": 30.98
+   }
+  ],
+  "confidence": 0.84
+ },
+ {
+  "index": 2,
+  "singer": "Rina",
+  "section": "Rina xori (1a)",
+  "line": "Ko'zlarimga temulib ko'zing",
+  "start": 31.11,
+  "end": 34.69,
+  "words": [
+   {
+    "w": "Ko'zlarimga",
+    "start": 31.11,
+    "end": 32.65
+   },
+   {
+    "w": "temulib",
+    "start": 32.65,
+    "end": 33.94
+   },
+   {
+    "w": "ko'zing",
+    "start": 33.94,
+    "end": 34.69
+   }
+  ],
+  "confidence": 0.77
+ },
+ {
+  "index": 3,
+  "singer": "Rina",
+  "section": "Rina xori (1a)",
+  "line": "Qo'llarimdan tutgan kuning",
+  "start": 34.69,
+  "end": 37.59,
+  "words": [
+   {
+    "w": "Qo'llarimdan",
+    "start": 34.69,
+    "end": 36.08
+   },
+   {
+    "w": "tutgan",
+    "start": 36.08,
+    "end": 36.75
+   },
+   {
+    "w": "kuning",
+    "start": 36.75,
+    "end": 37.59
+   }
+  ],
+  "confidence": 0.7
+ },
+ {
+  "index": 4,
+  "singer": "Rina",
+  "section": "Rina xori (1a)",
+  "line": "Endi qanday o'tyapti tuning",
+  "start": 37.59,
+  "end": 41.22,
+  "words": [
+   {
+    "w": "Endi",
+    "start": 37.59,
+    "end": 38.3
+   },
+   {
+    "w": "qanday",
+    "start": 38.3,
+    "end": 39.03
+   },
+   {
+    "w": "o'tyapti",
+    "start": 39.03,
+    "end": 40.2
+   },
+   {
+    "w": "tuning",
+    "start": 40.2,
+    "end": 41.22
+   }
+  ],
+  "confidence": 0.85
+ },
+ {
+  "index": 5,
+  "singer": "Rina",
+  "section": "Rina xori (1b)",
+  "line": "Xayolimdasan nega o'zing",
+  "start": 41.2,
+  "end": 44.68,
+  "words": [
+   {
+    "w": "Xayolimdasan",
+    "start": 41.2,
+    "end": 43.14
+   },
+   {
+    "w": "nega",
+    "start": 43.14,
+    "end": 43.95
+   },
+   {
+    "w": "o'zing",
+    "start": 43.95,
+    "end": 44.68
+   }
+  ],
+  "confidence": 0.84
+ },
+ {
+  "index": 6,
+  "singer": "Rina",
+  "section": "Rina xori (1b)",
+  "line": "Ko'zlarimga temulib ko'zing",
+  "start": 44.81,
+  "end": 48.39,
+  "words": [
+   {
+    "w": "Ko'zlarimga",
+    "start": 44.81,
+    "end": 46.35
+   },
+   {
+    "w": "temulib",
+    "start": 46.35,
+    "end": 47.64
+   },
+   {
+    "w": "ko'zing",
+    "start": 47.64,
+    "end": 48.39
+   }
+  ],
+  "confidence": 0.77
+ },
+ {
+  "index": 7,
+  "singer": "Rina",
+  "section": "Rina xori (1b)",
+  "line": "Qo'llarimdan tutgan kuning",
+  "start": 48.39,
+  "end": 51.29,
+  "words": [
+   {
+    "w": "Qo'llarimdan",
+    "start": 48.39,
+    "end": 49.78
+   },
+   {
+    "w": "tutgan",
+    "start": 49.78,
+    "end": 50.45
+   },
+   {
+    "w": "kuning",
+    "start": 50.45,
+    "end": 51.29
+   }
+  ],
+  "confidence": 0.7
+ },
+ {
+  "index": 8,
+  "singer": "Rina",
+  "section": "Rina xori (1b)",
+  "line": "Endi qanday o'tyapti tuning",
+  "start": 51.29,
+  "end": 54.92,
+  "words": [
+   {
+    "w": "Endi",
+    "start": 51.29,
+    "end": 52.0
+   },
+   {
+    "w": "qanday",
+    "start": 52.0,
+    "end": 52.73
+   },
+   {
+    "w": "o'tyapti",
+    "start": 52.73,
+    "end": 53.9
+   },
+   {
+    "w": "tuning",
+    "start": 53.9,
+    "end": 54.92
+   }
+  ],
+  "confidence": 0.85
+ },
+ {
+  "index": 9,
+  "singer": "Rina",
+  "section": "Rina bridge",
+  "line": "Bu tuyg'ular o'zgacha",
+  "start": 56.5,
+  "end": 59.58,
+  "words": [
+   {
+    "w": "Bu",
+    "start": 56.5,
+    "end": 57.03
+   },
+   {
+    "w": "tuyg'ular",
+    "start": 57.03,
+    "end": 58.31
+   },
+   {
+    "w": "o'zgacha",
+    "start": 58.31,
+    "end": 59.58
+   }
+  ],
+  "confidence": 0.77
+ },
+ {
+  "index": 10,
+  "singer": "Rina",
+  "section": "Rina bridge",
+  "line": "Sen meni o'ylab tonggacha",
+  "start": 60.06,
+  "end": 63.08,
+  "words": [
+   {
+    "w": "Sen",
+    "start": 60.06,
+    "end": 60.47
+   },
+   {
+    "w": "meni",
+    "start": 60.47,
+    "end": 61.15
+   },
+   {
+    "w": "o'ylab",
+    "start": 61.15,
+    "end": 61.9
+   },
+   {
+    "w": "tonggacha",
+    "start": 61.9,
+    "end": 63.08
+   }
+  ],
+  "confidence": 0.88
+ },
+ {
+  "index": 11,
+  "singer": "Rina",
+  "section": "Rina bridge",
+  "line": "So'zlaringda meni eslab",
+  "start": 63.45,
+  "end": 66.4,
+  "words": [
+   {
+    "w": "So'zlaringda",
+    "start": 63.45,
+    "end": 64.97
+   },
+   {
+    "w": "meni",
+    "start": 64.97,
+    "end": 65.71
+   },
+   {
+    "w": "eslab",
+    "start": 65.71,
+    "end": 66.4
+   }
+  ],
+  "confidence": 0.8
+ },
+ {
+  "index": 12,
+  "singer": "Rina",
+  "section": "Rina bridge",
+  "line": "Men esa bu sevgini izlab",
+  "start": 66.4,
+  "end": 70.15,
+  "words": [
+   {
+    "w": "Men",
+    "start": 66.4,
+    "end": 66.84
+   },
+   {
+    "w": "esa",
+    "start": 66.84,
+    "end": 67.7
+   },
+   {
+    "w": "bu",
+    "start": 67.7,
+    "end": 68.13
+   },
+   {
+    "w": "sevgini",
+    "start": 68.13,
+    "end": 69.29
+   },
+   {
+    "w": "izlab",
+    "start": 69.29,
+    "end": 70.15
+   }
+  ],
+  "confidence": 0.75
+ },
+ {
+  "index": 13,
+  "singer": "Rina",
+  "section": "Rina bridge",
+  "line": "Sevgimiz yuragimda muzlab",
+  "start": 70.15,
+  "end": 73.64,
+  "words": [
+   {
+    "w": "Sevgimiz",
+    "start": 70.15,
+    "end": 71.37
+   },
+   {
+    "w": "yuragimda",
+    "start": 71.37,
+    "end": 72.79
+   },
+   {
+    "w": "muzlab",
+    "start": 72.79,
+    "end": 73.64
+   }
+  ],
+  "confidence": 0.77
+ },
+ {
+  "index": 14,
+  "singer": "Rina",
+  "section": "Rina bridge",
+  "line": "Tuyg'ular paydo bo'lgan kuzda",
+  "start": 73.74,
+  "end": 76.64,
+  "words": [
+   {
+    "w": "Tuyg'ular",
+    "start": 73.74,
+    "end": 74.69
+   },
+   {
+    "w": "paydo",
+    "start": 74.69,
+    "end": 75.32
+   },
+   {
+    "w": "bo'lgan",
+    "start": 75.32,
+    "end": 75.96
+   },
+   {
+    "w": "kuzda",
+    "start": 75.96,
+    "end": 76.64
+   }
+  ],
+  "confidence": 0.77
+ },
+ {
+  "index": 15,
+  "singer": "Rina",
+  "section": "Rina bridge",
+  "line": "Eslagim kelmas yomon kunlarni",
+  "start": 76.91,
+  "end": 79.9,
+  "words": [
+   {
+    "w": "Eslagim",
+    "start": 76.91,
+    "end": 77.85
+   },
+   {
+    "w": "kelmas",
+    "start": 77.85,
+    "end": 78.44
+   },
+   {
+    "w": "yomon",
+    "start": 78.44,
+    "end": 79.06
+   },
+   {
+    "w": "kunlarni",
+    "start": 79.06,
+    "end": 79.9
+   }
+  ],
+  "confidence": 0.78
+ },
+ {
+  "index": 16,
+  "singer": "Rina",
+  "section": "Rina bridge",
+  "line": "Yomon kundagi odamlarni",
+  "start": 80.1,
+  "end": 83.27,
+  "words": [
+   {
+    "w": "Yomon",
+    "start": 80.1,
+    "end": 80.89
+   },
+   {
+    "w": "kundagi",
+    "start": 80.89,
+    "end": 81.87
+   },
+   {
+    "w": "odamlarni",
+    "start": 81.87,
+    "end": 83.27
+   }
+  ],
+  "confidence": 0.91
+ },
+ {
+  "index": 17,
+  "singer": "Hasanboy",
+  "section": "Hasanboy kupleti",
+  "line": "Seni sog'indim yo'qotgan kundan beri",
+  "start": 87.43,
+  "end": 89.5,
+  "words": [
+   {
+    "w": "Seni",
+    "start": 87.43,
+    "end": 87.75
+   },
+   {
+    "w": "sog'indim",
+    "start": 87.75,
+    "end": 88.33
+   },
+   {
+    "w": "yo'qotgan",
+    "start": 88.33,
+    "end": 88.81
+   },
+   {
+    "w": "kundan",
+    "start": 88.81,
+    "end": 89.19
+   },
+   {
+    "w": "beri",
+    "start": 89.19,
+    "end": 89.5
+   }
+  ],
+  "confidence": 0.83
+ },
+ {
+  "index": 18,
+  "singer": "Hasanboy",
+  "section": "Hasanboy kupleti",
+  "line": "Har tun ko'chada adashadi xayollarim meni",
+  "start": 89.5,
+  "end": 92.06,
+  "words": [
+   {
+    "w": "Har",
+    "start": 89.5,
+    "end": 89.68
+   },
+   {
+    "w": "tun",
+    "start": 89.68,
+    "end": 89.85
+   },
+   {
+    "w": "ko'chada",
+    "start": 89.85,
+    "end": 90.36
+   },
+   {
+    "w": "adashadi",
+    "start": 90.36,
+    "end": 91.05
+   },
+   {
+    "w": "xayollarim",
+    "start": 91.05,
+    "end": 91.74
+   },
+   {
+    "w": "meni",
+    "start": 91.74,
+    "end": 92.06
+   }
+  ],
+  "confidence": 0.62
+ },
+ {
+  "index": 19,
+  "singer": "Hasanboy",
+  "section": "Hasanboy kupleti",
+  "line": "Senla suhbat xuddi cannabis",
+  "start": 92.2,
+  "end": 94.2,
+  "words": [
+   {
+    "w": "Senla",
+    "start": 92.2,
+    "end": 92.67
+   },
+   {
+    "w": "suhbat",
+    "start": 92.67,
+    "end": 93.06
+   },
+   {
+    "w": "xuddi",
+    "start": 93.06,
+    "end": 93.47
+   },
+   {
+    "w": "cannabis",
+    "start": 93.47,
+    "end": 94.2
+   }
+  ],
+  "confidence": 0.76
+ },
+ {
+  "index": 20,
+  "singer": "Hasanboy",
+  "section": "Hasanboy kupleti",
+  "line": "Shu vaqt ko'payadi nurli his",
+  "start": 94.2,
+  "end": 96.35,
+  "words": [
+   {
+    "w": "Shu",
+    "start": 94.2,
+    "end": 94.44
+   },
+   {
+    "w": "vaqt",
+    "start": 94.44,
+    "end": 94.65
+   },
+   {
+    "w": "ko'payadi",
+    "start": 94.65,
+    "end": 95.66
+   },
+   {
+    "w": "nurli",
+    "start": 95.66,
+    "end": 96.1
+   },
+   {
+    "w": "his",
+    "start": 96.1,
+    "end": 96.35
+   }
+  ],
+  "confidence": 0.75
+ },
+ {
+  "index": 21,
+  "singer": "Hasanboy",
+  "section": "Hasanboy kupleti",
+  "line": "O'rgatib qiladi o'ziga asir",
+  "start": 96.35,
+  "end": 99.11,
+  "words": [
+   {
+    "w": "O'rgatib",
+    "start": 96.35,
+    "end": 97.14
+   },
+   {
+    "w": "qiladi",
+    "start": 97.14,
+    "end": 97.85
+   },
+   {
+    "w": "o'ziga",
+    "start": 97.85,
+    "end": 98.61
+   },
+   {
+    "w": "asir",
+    "start": 98.61,
+    "end": 99.11
+   }
+  ],
+  "confidence": 0.78
+ },
+ {
+  "index": 22,
+  "singer": "Hasanboy",
+  "section": "Hasanboy kupleti",
+  "line": "Sendan kechib bo'ladimi",
+  "start": 99.24,
+  "end": 101.01,
+  "words": [
+   {
+    "w": "Sendan",
+    "start": 99.24,
+    "end": 99.64
+   },
+   {
+    "w": "kechib",
+    "start": 99.64,
+    "end": 100.11
+   },
+   {
+    "w": "bo'ladimi",
+    "start": 100.11,
+    "end": 101.01
+   }
+  ],
+  "confidence": 0.82
+ },
+ {
+  "index": 23,
+  "singer": "Hasanboy",
+  "section": "Hasanboy kupleti",
+  "line": "Sendan kechib bo'ladimi",
+  "start": 101.23,
+  "end": 103.23,
+  "words": [
+   {
+    "w": "Sendan",
+    "start": 101.23,
+    "end": 101.69
+   },
+   {
+    "w": "kechib",
+    "start": 101.69,
+    "end": 102.21
+   },
+   {
+    "w": "bo'ladimi",
+    "start": 102.21,
+    "end": 103.23
+   }
+  ],
+  "confidence": 0.75
+ },
+ {
+  "index": 24,
+  "singer": "Hasanboy",
+  "section": "Hasanboy kupleti",
+  "line": "Sendan kechib bo'ladimi",
+  "start": 103.31,
+  "end": 105.35,
+  "words": [
+   {
+    "w": "Sendan",
+    "start": 103.31,
+    "end": 103.83
+   },
+   {
+    "w": "kechib",
+    "start": 103.83,
+    "end": 104.28
+   },
+   {
+    "w": "bo'ladimi",
+    "start": 104.28,
+    "end": 105.35
+   }
+  ],
+  "confidence": 0.75
+ },
+ {
+  "index": 25,
+  "singer": "Hasanboy",
+  "section": "Hasanboy kupleti",
+  "line": "Va lekin chidab bo'ladimi",
+  "start": 105.35,
+  "end": 107.8,
+  "words": [
+   {
+    "w": "Va",
+    "start": 105.35,
+    "end": 105.65
+   },
+   {
+    "w": "lekin",
+    "start": 105.65,
+    "end": 106.2
+   },
+   {
+    "w": "chidab",
+    "start": 106.2,
+    "end": 106.73
+   },
+   {
+    "w": "bo'ladimi",
+    "start": 106.73,
+    "end": 107.8
+   }
+  ],
+  "confidence": 0.75
+ },
+ {
+  "index": 26,
+  "singer": "Hasanboy",
+  "section": "Hasanboy kupleti",
+  "line": "Men seni o'ylagan paytim sanda boshqa mavzu",
+  "start": 107.8,
+  "end": 111.25,
+  "words": [
+   {
+    "w": "Men",
+    "start": 107.8,
+    "end": 108.1
+   },
+   {
+    "w": "seni",
+    "start": 108.1,
+    "end": 108.56
+   },
+   {
+    "w": "o'ylagan",
+    "start": 108.56,
+    "end": 109.25
+   },
+   {
+    "w": "paytim",
+    "start": 109.25,
+    "end": 109.79
+   },
+   {
+    "w": "sanda",
+    "start": 109.79,
+    "end": 110.24
+   },
+   {
+    "w": "boshqa",
+    "start": 110.24,
+    "end": 110.74
+   },
+   {
+    "w": "mavzu",
+    "start": 110.74,
+    "end": 111.25
+   }
+  ],
+  "confidence": 0.78
+ },
+ {
+  "index": 27,
+  "singer": "Hasanboy",
+  "section": "Hasanboy kupleti",
+  "line": "Balki bedor tunlarimda sanda shirin uyqu",
+  "start": 111.25,
+  "end": 114.51,
+  "words": [
+   {
+    "w": "Balki",
+    "start": 111.25,
+    "end": 111.75
+   },
+   {
+    "w": "bedor",
+    "start": 111.75,
+    "end": 112.2
+   },
+   {
+    "w": "tunlarimda",
+    "start": 112.2,
+    "end": 113.13
+   },
+   {
+    "w": "sanda",
+    "start": 113.13,
+    "end": 113.61
+   },
+   {
+    "w": "shirin",
+    "start": 113.61,
+    "end": 114.04
+   },
+   {
+    "w": "uyqu",
+    "start": 114.04,
+    "end": 114.51
+   }
+  ],
+  "confidence": 0.79
+ },
+ {
+  "index": 28,
+  "singer": "Hasanboy",
+  "section": "Hasanboy kupleti",
+  "line": "Oramizdagi eng arzon narsa go'yo tuyg'u",
+  "start": 114.77,
+  "end": 118.25,
+  "words": [
+   {
+    "w": "Oramizdagi",
+    "start": 114.77,
+    "end": 115.97
+   },
+   {
+    "w": "eng",
+    "start": 115.97,
+    "end": 116.22
+   },
+   {
+    "w": "arzon",
+    "start": 116.22,
+    "end": 116.71
+   },
+   {
+    "w": "narsa",
+    "start": 116.71,
+    "end": 117.23
+   },
+   {
+    "w": "go'yo",
+    "start": 117.23,
+    "end": 117.72
+   },
+   {
+    "w": "tuyg'u",
+    "start": 117.72,
+    "end": 118.25
+   }
+  ],
+  "confidence": 0.78
+ },
+ {
+  "index": 29,
+  "singer": "Hasanboy",
+  "section": "Hasanboy kupleti",
+  "line": "Sensiz yashadim go'yoki cho'lda ohu",
+  "start": 118.25,
+  "end": 121.41,
+  "words": [
+   {
+    "w": "Sensiz",
+    "start": 118.25,
+    "end": 118.81
+   },
+   {
+    "w": "yashadim",
+    "start": 118.81,
+    "end": 119.6
+   },
+   {
+    "w": "go'yoki",
+    "start": 119.6,
+    "end": 120.41
+   },
+   {
+    "w": "cho'lda",
+    "start": 120.41,
+    "end": 120.86
+   },
+   {
+    "w": "ohu",
+    "start": 120.86,
+    "end": 121.41
+   }
+  ],
+  "confidence": 0.77
+ },
+ {
+  "index": 30,
+  "singer": "Hasanboy",
+  "section": "Hasanboy kupleti",
+  "line": "Har bir suhbat aylanardi baxtiyor onimga",
+  "start": 121.54,
+  "end": 124.95,
+  "words": [
+   {
+    "w": "Har",
+    "start": 121.54,
+    "end": 121.82
+   },
+   {
+    "w": "bir",
+    "start": 121.82,
+    "end": 122.04
+   },
+   {
+    "w": "suhbat",
+    "start": 122.04,
+    "end": 122.62
+   },
+   {
+    "w": "aylanardi",
+    "start": 122.62,
+    "end": 123.56
+   },
+   {
+    "w": "baxtiyor",
+    "start": 123.56,
+    "end": 124.27
+   },
+   {
+    "w": "onimga",
+    "start": 124.27,
+    "end": 124.95
+   }
+  ],
+  "confidence": 0.75
+ },
+ {
+  "index": 31,
+  "singer": "Hasanboy",
+  "section": "Hasanboy kupleti",
+  "line": "Hozir esa suhbatimiz aniq aylanadi jangga",
+  "start": 124.95,
+  "end": 128.69,
+  "words": [
+   {
+    "w": "Hozir",
+    "start": 124.95,
+    "end": 125.4
+   },
+   {
+    "w": "esa",
+    "start": 125.4,
+    "end": 125.96
+   },
+   {
+    "w": "suhbatimiz",
+    "start": 125.96,
+    "end": 126.93
+   },
+   {
+    "w": "aniq",
+    "start": 126.93,
+    "end": 127.37
+   },
+   {
+    "w": "aylanadi",
+    "start": 127.37,
+    "end": 128.21
+   },
+   {
+    "w": "jangga",
+    "start": 128.21,
+    "end": 128.69
+   }
+  ],
+  "confidence": 0.74
+ },
+ {
+  "index": 32,
+  "singer": "Hasanboy",
+  "section": "Hasanboy kupleti",
+  "line": "Xuddi ko'chalar to'lganda changga",
+  "start": 128.76,
+  "end": 130.92,
+  "words": [
+   {
+    "w": "Xuddi",
+    "start": 128.76,
+    "end": 129.22
+   },
+   {
+    "w": "ko'chalar",
+    "start": 129.22,
+    "end": 129.83
+   },
+   {
+    "w": "to'lganda",
+    "start": 129.83,
+    "end": 130.48
+   },
+   {
+    "w": "changga",
+    "start": 130.48,
+    "end": 130.92
+   }
+  ],
+  "confidence": 0.73
+ },
+ {
+  "index": 33,
+  "singer": "Hasanboy",
+  "section": "Hasanboy kupleti",
+  "line": "Yetishmaydi havo tanga",
+  "start": 130.96,
+  "end": 132.7,
+  "words": [
+   {
+    "w": "Yetishmaydi",
+    "start": 130.96,
+    "end": 131.76
+   },
+   {
+    "w": "havo",
+    "start": 131.76,
+    "end": 132.19
+   },
+   {
+    "w": "tanga",
+    "start": 132.19,
+    "end": 132.7
+   }
+  ],
+  "confidence": 0.74
+ },
+ {
+  "index": 34,
+  "singer": "Hasanboy",
+  "section": "Hasanboy kupleti",
+  "line": "Sensiz yetishmaydi havo tanga",
+  "start": 132.75,
+  "end": 134.79,
+  "words": [
+   {
+    "w": "Sensiz",
+    "start": 132.75,
+    "end": 133.21
+   },
+   {
+    "w": "yetishmaydi",
+    "start": 133.21,
+    "end": 134.0
+   },
+   {
+    "w": "havo",
+    "start": 134.0,
+    "end": 134.39
+   },
+   {
+    "w": "tanga",
+    "start": 134.39,
+    "end": 134.79
+   }
+  ],
+  "confidence": 0.8
+ },
+ {
+  "index": 35,
+  "singer": "Hasanboy",
+  "section": "Hasanboy kupleti",
+  "line": "San haqingda eslayapman so'ngi bor",
+  "start": 135.1,
+  "end": 137.91,
+  "words": [
+   {
+    "w": "San",
+    "start": 135.1,
+    "end": 135.43
+   },
+   {
+    "w": "haqingda",
+    "start": 135.43,
+    "end": 136.15
+   },
+   {
+    "w": "eslayapman",
+    "start": 136.15,
+    "end": 137.16
+   },
+   {
+    "w": "so'ngi",
+    "start": 137.16,
+    "end": 137.65
+   },
+   {
+    "w": "bor",
+    "start": 137.65,
+    "end": 137.91
+   }
+  ],
+  "confidence": 0.81
+ },
+ {
+  "index": 36,
+  "singer": "Hasanboy",
+  "section": "Hasanboy kupleti",
+  "line": "So'nggi trek, so'nggi nota, so'nggi so'z",
+  "start": 138.03,
+  "end": 141.39,
+  "words": [
+   {
+    "w": "So'nggi",
+    "start": 138.03,
+    "end": 138.62
+   },
+   {
+    "w": "trek,",
+    "start": 138.62,
+    "end": 138.99
+   },
+   {
+    "w": "so'nggi",
+    "start": 138.99,
+    "end": 139.59
+   },
+   {
+    "w": "nota,",
+    "start": 139.59,
+    "end": 140.29
+   },
+   {
+    "w": "so'nggi",
+    "start": 140.29,
+    "end": 141.04
+   },
+   {
+    "w": "so'z",
+    "start": 141.04,
+    "end": 141.39
+   }
+  ],
+  "confidence": 0.74
+ },
+ {
+  "index": 37,
+  "singer": "Rina",
+  "section": "Rina xori (2a)",
+  "line": "Xayolimdasan nega o'zing",
+  "start": 141.45,
+  "end": 144.93,
+  "words": [
+   {
+    "w": "Xayolimdasan",
+    "start": 141.45,
+    "end": 143.39
+   },
+   {
+    "w": "nega",
+    "start": 143.39,
+    "end": 144.2
+   },
+   {
+    "w": "o'zing",
+    "start": 144.2,
+    "end": 144.93
+   }
+  ],
+  "confidence": 0.84
+ },
+ {
+  "index": 38,
+  "singer": "Rina",
+  "section": "Rina xori (2a)",
+  "line": "Ko'zlarimga temulib ko'zing",
+  "start": 145.06,
+  "end": 148.64,
+  "words": [
+   {
+    "w": "Ko'zlarimga",
+    "start": 145.06,
+    "end": 146.6
+   },
+   {
+    "w": "temulib",
+    "start": 146.6,
+    "end": 147.89
+   },
+   {
+    "w": "ko'zing",
+    "start": 147.89,
+    "end": 148.64
+   }
+  ],
+  "confidence": 0.77
+ },
+ {
+  "index": 39,
+  "singer": "Rina",
+  "section": "Rina xori (2a)",
+  "line": "Qo'llarimdan tutgan kuning",
+  "start": 148.64,
+  "end": 151.54,
+  "words": [
+   {
+    "w": "Qo'llarimdan",
+    "start": 148.64,
+    "end": 150.03
+   },
+   {
+    "w": "tutgan",
+    "start": 150.03,
+    "end": 150.7
+   },
+   {
+    "w": "kuning",
+    "start": 150.7,
+    "end": 151.54
+   }
+  ],
+  "confidence": 0.7
+ },
+ {
+  "index": 40,
+  "singer": "Rina",
+  "section": "Rina xori (2a)",
+  "line": "Endi qanday o'tyapti tuning",
+  "start": 151.54,
+  "end": 155.17,
+  "words": [
+   {
+    "w": "Endi",
+    "start": 151.54,
+    "end": 152.25
+   },
+   {
+    "w": "qanday",
+    "start": 152.25,
+    "end": 152.98
+   },
+   {
+    "w": "o'tyapti",
+    "start": 152.98,
+    "end": 154.15
+   },
+   {
+    "w": "tuning",
+    "start": 154.15,
+    "end": 155.17
+   }
+  ],
+  "confidence": 0.85
+ },
+ {
+  "index": 41,
+  "singer": "Rina",
+  "section": "Rina xori (2b)",
+  "line": "Xayolimdasan nega o'zing",
+  "start": 196.31,
+  "end": 199.79,
+  "words": [
+   {
+    "w": "Xayolimdasan",
+    "start": 196.31,
+    "end": 198.25
+   },
+   {
+    "w": "nega",
+    "start": 198.25,
+    "end": 199.06
+   },
+   {
+    "w": "o'zing",
+    "start": 199.06,
+    "end": 199.79
+   }
+  ],
+  "confidence": 0.5
+ },
+ {
+  "index": 42,
+  "singer": "Rina",
+  "section": "Rina xori (2b)",
+  "line": "Ko'zlarimga temulib ko'zing",
+  "start": 199.92,
+  "end": 203.5,
+  "words": [
+   {
+    "w": "Ko'zlarimga",
+    "start": 199.92,
+    "end": 201.46
+   },
+   {
+    "w": "temulib",
+    "start": 201.46,
+    "end": 202.75
+   },
+   {
+    "w": "ko'zing",
+    "start": 202.75,
+    "end": 203.5
+   }
+  ],
+  "confidence": 0.5
+ },
+ {
+  "index": 43,
+  "singer": "Rina",
+  "section": "Rina xori (2b)",
+  "line": "Qo'llarimdan tutgan kuning",
+  "start": 203.5,
+  "end": 206.4,
+  "words": [
+   {
+    "w": "Qo'llarimdan",
+    "start": 203.5,
+    "end": 204.89
+   },
+   {
+    "w": "tutgan",
+    "start": 204.89,
+    "end": 205.56
+   },
+   {
+    "w": "kuning",
+    "start": 205.56,
+    "end": 206.4
+   }
+  ],
+  "confidence": 0.5
+ },
+ {
+  "index": 44,
+  "singer": "Rina",
+  "section": "Rina xori (2b)",
+  "line": "Endi qanday o'tyapti tuning",
+  "start": 206.4,
+  "end": 210.03,
+  "words": [
+   {
+    "w": "Endi",
+    "start": 206.4,
+    "end": 207.11
+   },
+   {
+    "w": "qanday",
+    "start": 207.11,
+    "end": 207.84
+   },
+   {
+    "w": "o'tyapti",
+    "start": 207.84,
+    "end": 209.01
+   },
+   {
+    "w": "tuning",
+    "start": 209.01,
+    "end": 210.03
+   }
+  ],
+  "confidence": 0.5
+ }
+]

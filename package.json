@@ -1,0 +1,28 @@
+{
+  "name": "xayolimda-lyric-video",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Xayolimda (Hasanboy & Rina) — lirik video, Remotion",
+  "scripts": {
+    "studio": "remotion studio",
+    "palette": "node scripts/palette.mjs",
+    "render": "remotion render LyricVideo out/lyric-video.mp4",
+    "still": "remotion still LyricVideo --frame=900 out/still.png"
+  },
+  "dependencies": {
+    "@fontsource/cormorant-garamond": "5.3.0",
+    "@fontsource/jost": "5.3.0",
+    "@remotion/cli": "4.0.531",
+    "@remotion/layout-utils": "4.0.531",
+    "@remotion/media-utils": "4.0.531",
+    "node-vibrant": "4.0.4",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.531"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.3",
+    "@types/react": "18.3.31",
+    "typescript": "5.9.3"
+  }
+}

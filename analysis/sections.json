@@ -1,0 +1,18 @@
+{
+  "_izoh": "Bo'limlar xaritasi: har bo'lim lyrics.txt dagi qatorlar oralig'ini (1 dan boshlab, oxirgisi ham kiradi) trekdagi vaqt oralig'iga bog'laydi. Vaqtlar soniyada. Bir xil 'group' dagi bo'limlar (xor takrorlari) birgalikda align qilinadi: faollik o'rtachalanadi va start vokal chroma korrelyatsiyasi bilan ±0.5 s ichida aniqlashtiriladi. Xato bo'lsa shu yerda to'g'rilab, `python scripts/align_lyrics.py` ni qayta ishga tushiring.",
+  "sections": [
+    { "name": "Rina xori (1a)", "lines": [1, 4], "start": 27.49, "end": 41.24, "group": "xor" },
+    { "name": "Rina xori (1b)", "lines": [5, 8], "start": 41.24, "end": 54.99, "group": "xor" },
+    { "name": "Rina bridge", "lines": [9, 16], "start": 55.9, "end": 83.4 },
+    { "name": "Hasanboy kupleti", "lines": [17, 36], "start": 86.9, "end": 141.4 },
+    {
+      "name": "Rina xori (2a)", "lines": [37, 40], "start": 141.46, "end": 155.21, "group": "xor",
+      "note": "Xor melodiyasi va registri (f0 ~247 Hz) 1-xor bilan mos keladi."
+    },
+    {
+      "name": "Rina xori (2b)", "lines": [41, 44], "start": 196.35, "end": 210.1, "group": "xor",
+      "confidenceCap": 0.5,
+      "note": "Tuzilish taxminiy: xorning 2-yarmi 155.2 s dan (2a dan keyin darhol) ham boshlanishi mumkin. 155–196 s oralig'ida baland registrli vokaliz bor, so'zlar aniqlanmadi."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+# Audio tahlil + modelsiz alignment
+librosa>=0.11
+soundfile
+imageio-ffmpeg
+numpy
+scipy
+onnxruntime
+silero-vad
+torch
+# Ixtiyoriy: ML alignment (scripts/align_ml.py)
+demucs
+stable-ts
