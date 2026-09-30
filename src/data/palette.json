@@ -1,0 +1,56 @@
+{
+  "Vibrant": {
+    "hex": "#ccab8e",
+    "rgb": [
+      204,
+      171,
+      142
+    ],
+    "population": 54
+  },
+  "DarkVibrant": {
+    "hex": "#4c2e24",
+    "rgb": [
+      76,
+      46,
+      36
+    ],
+    "population": 19
+  },
+  "LightVibrant": {
+    "hex": "#d5b698",
+    "rgb": [
+      213,
+      182,
+      152
+    ],
+    "population": 66
+  },
+  "Muted": {
+    "hex": "#a48368",
+    "rgb": [
+      164,
+      131,
+      104
+    ],
+    "population": 143
+  },
+  "DarkMuted": {
+    "hex": "#524235",
+    "rgb": [
+      82,
+      66,
+      53
+    ],
+    "population": 2132
+  },
+  "LightMuted": {
+    "hex": "#c1a286",
+    "rgb": [
+      193,
+      162,
+      134
+    ],
+    "population": 90
+  }
+}

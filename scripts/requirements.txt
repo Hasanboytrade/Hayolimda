@@ -10,3 +10,4 @@ torch
 # Ixtiyoriy: ML alignment (scripts/align_ml.py)
 demucs
 stable-ts
+pillow
