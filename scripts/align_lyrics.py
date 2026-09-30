@@ -125,7 +125,8 @@ def trim(act: np.ndarray, a: int, b: int, thr: float = 0.5) -> tuple[int, int]:
     on = np.where(act[a:b] > thr)[0]
     if len(on) == 0:
         return a, b
-    s = a + min(on[0], int(0.6 * RES))
+    # Boshlanishni ko'pi bilan 0.2 s ga suramiz: matn hech qachon kech qolmasin
+    s = a + min(on[0], int(0.2 * RES))
     e = a + max(on[-1] + 1, (b - a) - int(0.8 * RES))
     return s, max(e, s + int(0.3 * RES))
 
@@ -192,7 +193,13 @@ def main() -> None:
             act, bounds, rate = shared[sec["group"]]
         else:
             act = section_activity(vad, band, a, int(sec["end"] * RES))
-            bounds, rate = split_section(act, syl)
+            if sec.get("uniform"):
+                # Qatorlar teng bo'linadi (masalan, hook: har qator 1 takt)
+                n = len(syl)
+                bounds = [round(i * len(act) / n) for i in range(n + 1)]
+                rate = len(act) / sum(syl)
+            else:
+                bounds, rate = split_section(act, syl)
         cap = sec.get("confidenceCap", 1.0)
 
         def gap_at(x: int) -> float:
@@ -206,7 +213,8 @@ def main() -> None:
 
             # ishonch: chegaralar pauzaga tushganmi + uzunlik bo'g'inlarga mosmi + qator ichida faollik bormi
             boundary_q = 1 - (gap_at(ba) + gap_at(bb)) / 2
-            dur_fit = float(np.exp(-4 * np.log((bb - ba) / (rate * syl[i])) ** 2))
+            expected = (bounds[-1] / len(syl)) if sec.get("uniform") else rate * syl[i]
+            dur_fit = float(np.exp(-4 * np.log((bb - ba) / expected) ** 2))
             coverage = float((act[s:e] > 0.5).mean())
             conf = min(cap, 0.4 * boundary_q + 0.4 * dur_fit + 0.2 * coverage)
 

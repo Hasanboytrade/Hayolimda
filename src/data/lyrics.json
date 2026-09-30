@@ -222,26 +222,26 @@
   "singer": "Rina",
   "section": "Rina bridge",
   "line": "Bu tuyg'ular o'zgacha",
-  "start": 56.5,
+  "start": 56.1,
   "end": 59.58,
   "words": [
    {
     "w": "Bu",
-    "start": 56.5,
-    "end": 57.03
+    "start": 56.1,
+    "end": 57.0
    },
    {
     "w": "tuyg'ular",
-    "start": 57.03,
-    "end": 58.31
+    "start": 57.0,
+    "end": 58.3
    },
    {
     "w": "o'zgacha",
-    "start": 58.31,
+    "start": 58.3,
     "end": 59.58
    }
   ],
-  "confidence": 0.77
+  "confidence": 0.75
  },
  {
   "index": 10,
@@ -453,143 +453,143 @@
  {
   "index": 17,
   "singer": "Hasanboy",
-  "section": "Hasanboy kupleti",
+  "section": "Hasanboy 1-bo'lim",
   "line": "Seni sog'indim yo'qotgan kundan beri",
-  "start": 87.43,
-  "end": 89.5,
+  "start": 87.2,
+  "end": 90.37,
   "words": [
    {
     "w": "Seni",
-    "start": 87.43,
-    "end": 87.75
+    "start": 87.2,
+    "end": 87.88
    },
    {
     "w": "sog'indim",
-    "start": 87.75,
-    "end": 88.33
+    "start": 87.88,
+    "end": 88.64
    },
    {
     "w": "yo'qotgan",
-    "start": 88.33,
-    "end": 88.81
+    "start": 88.64,
+    "end": 89.39
    },
    {
     "w": "kundan",
-    "start": 88.81,
-    "end": 89.19
+    "start": 89.39,
+    "end": 89.88
    },
    {
     "w": "beri",
-    "start": 89.19,
-    "end": 89.5
+    "start": 89.88,
+    "end": 90.37
    }
   ],
-  "confidence": 0.83
+  "confidence": 0.82
  },
  {
   "index": 18,
   "singer": "Hasanboy",
-  "section": "Hasanboy kupleti",
+  "section": "Hasanboy 1-bo'lim",
   "line": "Har tun ko'chada adashadi xayollarim meni",
-  "start": 89.5,
-  "end": 92.06,
+  "start": 90.44,
+  "end": 93.9,
   "words": [
    {
     "w": "Har",
-    "start": 89.5,
-    "end": 89.68
+    "start": 90.44,
+    "end": 90.66
    },
    {
     "w": "tun",
-    "start": 89.68,
-    "end": 89.85
+    "start": 90.66,
+    "end": 90.91
    },
    {
     "w": "ko'chada",
-    "start": 89.85,
-    "end": 90.36
+    "start": 90.91,
+    "end": 91.55
    },
    {
     "w": "adashadi",
-    "start": 90.36,
-    "end": 91.05
+    "start": 91.55,
+    "end": 92.6
    },
    {
     "w": "xayollarim",
-    "start": 91.05,
-    "end": 91.74
+    "start": 92.6,
+    "end": 93.42
    },
    {
     "w": "meni",
-    "start": 91.74,
-    "end": 92.06
-   }
-  ],
-  "confidence": 0.62
- },
- {
-  "index": 19,
-  "singer": "Hasanboy",
-  "section": "Hasanboy kupleti",
-  "line": "Senla suhbat xuddi cannabis",
-  "start": 92.2,
-  "end": 94.2,
-  "words": [
-   {
-    "w": "Senla",
-    "start": 92.2,
-    "end": 92.67
-   },
-   {
-    "w": "suhbat",
-    "start": 92.67,
-    "end": 93.06
-   },
-   {
-    "w": "xuddi",
-    "start": 93.06,
-    "end": 93.47
-   },
-   {
-    "w": "cannabis",
-    "start": 93.47,
-    "end": 94.2
+    "start": 93.42,
+    "end": 93.9
    }
   ],
   "confidence": 0.76
  },
  {
-  "index": 20,
+  "index": 19,
   "singer": "Hasanboy",
-  "section": "Hasanboy kupleti",
-  "line": "Shu vaqt ko'payadi nurli his",
-  "start": 94.2,
+  "section": "Hasanboy 1-bo'lim",
+  "line": "Senla suhbat xuddi cannabis",
+  "start": 93.9,
   "end": 96.35,
   "words": [
    {
+    "w": "Senla",
+    "start": 93.9,
+    "end": 94.47
+   },
+   {
+    "w": "suhbat",
+    "start": 94.47,
+    "end": 95.05
+   },
+   {
+    "w": "xuddi",
+    "start": 95.05,
+    "end": 95.59
+   },
+   {
+    "w": "cannabis",
+    "start": 95.59,
+    "end": 96.35
+   }
+  ],
+  "confidence": 0.75
+ },
+ {
+  "index": 20,
+  "singer": "Hasanboy",
+  "section": "Hasanboy 1-bo'lim",
+  "line": "Shu vaqt ko'payadi nurli his",
+  "start": 96.35,
+  "end": 98.5,
+  "words": [
+   {
     "w": "Shu",
-    "start": 94.2,
-    "end": 94.44
+    "start": 96.35,
+    "end": 96.61
    },
    {
     "w": "vaqt",
-    "start": 94.44,
-    "end": 94.65
+    "start": 96.61,
+    "end": 96.84
    },
    {
     "w": "ko'payadi",
-    "start": 94.65,
-    "end": 95.66
+    "start": 96.84,
+    "end": 97.8
    },
    {
     "w": "nurli",
-    "start": 95.66,
-    "end": 96.1
+    "start": 97.8,
+    "end": 98.26
    },
    {
     "w": "his",
-    "start": 96.1,
-    "end": 96.35
+    "start": 98.26,
+    "end": 98.5
    }
   ],
   "confidence": 0.75
@@ -597,215 +597,215 @@
  {
   "index": 21,
   "singer": "Hasanboy",
-  "section": "Hasanboy kupleti",
+  "section": "Hasanboy 1-bo'lim",
   "line": "O'rgatib qiladi o'ziga asir",
-  "start": 96.35,
-  "end": 99.11,
+  "start": 98.5,
+  "end": 100.73,
   "words": [
    {
     "w": "O'rgatib",
-    "start": 96.35,
-    "end": 97.14
+    "start": 98.5,
+    "end": 99.11
    },
    {
     "w": "qiladi",
-    "start": 97.14,
-    "end": 97.85
+    "start": 99.11,
+    "end": 99.73
    },
    {
     "w": "o'ziga",
-    "start": 97.85,
-    "end": 98.61
+    "start": 99.73,
+    "end": 100.36
    },
    {
     "w": "asir",
-    "start": 98.61,
-    "end": 99.11
-   }
-  ],
-  "confidence": 0.78
- },
- {
-  "index": 22,
-  "singer": "Hasanboy",
-  "section": "Hasanboy kupleti",
-  "line": "Sendan kechib bo'ladimi",
-  "start": 99.24,
-  "end": 101.01,
-  "words": [
-   {
-    "w": "Sendan",
-    "start": 99.24,
-    "end": 99.64
-   },
-   {
-    "w": "kechib",
-    "start": 99.64,
-    "end": 100.11
-   },
-   {
-    "w": "bo'ladimi",
-    "start": 100.11,
-    "end": 101.01
+    "start": 100.36,
+    "end": 100.73
    }
   ],
   "confidence": 0.82
  },
  {
-  "index": 23,
+  "index": 22,
   "singer": "Hasanboy",
-  "section": "Hasanboy kupleti",
+  "section": "Hasanboy hook",
   "line": "Sendan kechib bo'ladimi",
-  "start": 101.23,
-  "end": 103.23,
+  "start": 100.75,
+  "end": 102.46,
   "words": [
    {
     "w": "Sendan",
-    "start": 101.23,
-    "end": 101.69
+    "start": 100.75,
+    "end": 101.26
    },
    {
     "w": "kechib",
-    "start": 101.69,
-    "end": 102.21
+    "start": 101.26,
+    "end": 101.65
    },
    {
     "w": "bo'ladimi",
-    "start": 102.21,
-    "end": 103.23
+    "start": 101.65,
+    "end": 102.46
    }
   ],
-  "confidence": 0.75
+  "confidence": 0.79
+ },
+ {
+  "index": 23,
+  "singer": "Hasanboy",
+  "section": "Hasanboy hook",
+  "line": "Sendan kechib bo'ladimi",
+  "start": 102.46,
+  "end": 104.18,
+  "words": [
+   {
+    "w": "Sendan",
+    "start": 102.46,
+    "end": 102.98
+   },
+   {
+    "w": "kechib",
+    "start": 102.98,
+    "end": 103.39
+   },
+   {
+    "w": "bo'ladimi",
+    "start": 103.39,
+    "end": 104.18
+   }
+  ],
+  "confidence": 0.62
  },
  {
   "index": 24,
   "singer": "Hasanboy",
-  "section": "Hasanboy kupleti",
+  "section": "Hasanboy hook",
   "line": "Sendan kechib bo'ladimi",
-  "start": 103.31,
-  "end": 105.35,
+  "start": 104.18,
+  "end": 105.89,
   "words": [
    {
     "w": "Sendan",
-    "start": 103.31,
-    "end": 103.83
+    "start": 104.18,
+    "end": 104.63
    },
    {
     "w": "kechib",
-    "start": 103.83,
-    "end": 104.28
+    "start": 104.63,
+    "end": 105.03
    },
    {
     "w": "bo'ladimi",
-    "start": 104.28,
-    "end": 105.35
+    "start": 105.03,
+    "end": 105.89
    }
   ],
-  "confidence": 0.75
+  "confidence": 0.64
  },
  {
   "index": 25,
   "singer": "Hasanboy",
-  "section": "Hasanboy kupleti",
+  "section": "Hasanboy hook",
   "line": "Va lekin chidab bo'ladimi",
-  "start": 105.35,
-  "end": 107.8,
+  "start": 105.89,
+  "end": 107.61,
   "words": [
    {
     "w": "Va",
-    "start": 105.35,
-    "end": 105.65
+    "start": 105.89,
+    "end": 106.12
    },
    {
     "w": "lekin",
-    "start": 105.65,
-    "end": 106.2
+    "start": 106.12,
+    "end": 106.46
    },
    {
     "w": "chidab",
-    "start": 106.2,
-    "end": 106.73
+    "start": 106.46,
+    "end": 106.87
    },
    {
     "w": "bo'ladimi",
-    "start": 106.73,
-    "end": 107.8
+    "start": 106.87,
+    "end": 107.61
    }
   ],
-  "confidence": 0.75
+  "confidence": 0.83
  },
  {
   "index": 26,
   "singer": "Hasanboy",
-  "section": "Hasanboy kupleti",
+  "section": "Hasanboy 2-bo'lim",
   "line": "Men seni o'ylagan paytim sanda boshqa mavzu",
-  "start": 107.8,
-  "end": 111.25,
+  "start": 107.61,
+  "end": 111.26,
   "words": [
    {
     "w": "Men",
-    "start": 107.8,
-    "end": 108.1
+    "start": 107.61,
+    "end": 107.95
    },
    {
     "w": "seni",
-    "start": 108.1,
-    "end": 108.56
+    "start": 107.95,
+    "end": 108.45
    },
    {
     "w": "o'ylagan",
-    "start": 108.56,
-    "end": 109.25
+    "start": 108.45,
+    "end": 109.13
    },
    {
     "w": "paytim",
-    "start": 109.25,
-    "end": 109.79
+    "start": 109.13,
+    "end": 109.72
    },
    {
     "w": "sanda",
-    "start": 109.79,
-    "end": 110.24
+    "start": 109.72,
+    "end": 110.21
    },
    {
     "w": "boshqa",
-    "start": 110.24,
-    "end": 110.74
+    "start": 110.21,
+    "end": 110.72
    },
    {
     "w": "mavzu",
-    "start": 110.74,
-    "end": 111.25
+    "start": 110.72,
+    "end": 111.26
    }
   ],
-  "confidence": 0.78
+  "confidence": 0.88
  },
  {
   "index": 27,
   "singer": "Hasanboy",
-  "section": "Hasanboy kupleti",
+  "section": "Hasanboy 2-bo'lim",
   "line": "Balki bedor tunlarimda sanda shirin uyqu",
-  "start": 111.25,
+  "start": 111.26,
   "end": 114.51,
   "words": [
    {
     "w": "Balki",
-    "start": 111.25,
-    "end": 111.75
+    "start": 111.26,
+    "end": 111.76
    },
    {
     "w": "bedor",
-    "start": 111.75,
-    "end": 112.2
+    "start": 111.76,
+    "end": 112.22
    },
    {
     "w": "tunlarimda",
-    "start": 112.2,
-    "end": 113.13
+    "start": 112.22,
+    "end": 113.14
    },
    {
     "w": "sanda",
-    "start": 113.13,
+    "start": 113.14,
     "end": 113.61
    },
    {
@@ -824,125 +824,125 @@
  {
   "index": 28,
   "singer": "Hasanboy",
-  "section": "Hasanboy kupleti",
+  "section": "Hasanboy 2-bo'lim",
   "line": "Oramizdagi eng arzon narsa go'yo tuyg'u",
   "start": 114.77,
-  "end": 118.25,
+  "end": 118.16,
   "words": [
    {
     "w": "Oramizdagi",
     "start": 114.77,
-    "end": 115.97
+    "end": 115.95
    },
    {
     "w": "eng",
-    "start": 115.97,
-    "end": 116.22
+    "start": 115.95,
+    "end": 116.2
    },
    {
     "w": "arzon",
-    "start": 116.22,
-    "end": 116.71
+    "start": 116.2,
+    "end": 116.68
    },
    {
     "w": "narsa",
-    "start": 116.71,
-    "end": 117.23
+    "start": 116.68,
+    "end": 117.19
    },
    {
     "w": "go'yo",
-    "start": 117.23,
-    "end": 117.72
+    "start": 117.19,
+    "end": 117.67
    },
    {
     "w": "tuyg'u",
-    "start": 117.72,
-    "end": 118.25
+    "start": 117.67,
+    "end": 118.16
    }
   ],
-  "confidence": 0.78
+  "confidence": 0.79
  },
  {
   "index": 29,
   "singer": "Hasanboy",
-  "section": "Hasanboy kupleti",
+  "section": "Hasanboy 2-bo'lim",
   "line": "Sensiz yashadim go'yoki cho'lda ohu",
-  "start": 118.25,
-  "end": 121.41,
+  "start": 118.21,
+  "end": 121.34,
   "words": [
    {
     "w": "Sensiz",
-    "start": 118.25,
-    "end": 118.81
+    "start": 118.21,
+    "end": 118.79
    },
    {
     "w": "yashadim",
-    "start": 118.81,
-    "end": 119.6
+    "start": 118.79,
+    "end": 119.57
    },
    {
     "w": "go'yoki",
-    "start": 119.6,
-    "end": 120.41
+    "start": 119.57,
+    "end": 120.39
    },
    {
     "w": "cho'lda",
-    "start": 120.41,
-    "end": 120.86
+    "start": 120.39,
+    "end": 120.83
    },
    {
     "w": "ohu",
-    "start": 120.86,
-    "end": 121.41
+    "start": 120.83,
+    "end": 121.34
    }
   ],
-  "confidence": 0.77
+  "confidence": 0.88
  },
  {
   "index": 30,
   "singer": "Hasanboy",
-  "section": "Hasanboy kupleti",
+  "section": "Hasanboy 3-bo'lim",
   "line": "Har bir suhbat aylanardi baxtiyor onimga",
-  "start": 121.54,
+  "start": 121.37,
   "end": 124.95,
   "words": [
    {
     "w": "Har",
-    "start": 121.54,
-    "end": 121.82
+    "start": 121.37,
+    "end": 121.72
    },
    {
     "w": "bir",
-    "start": 121.82,
-    "end": 122.04
+    "start": 121.72,
+    "end": 121.96
    },
    {
     "w": "suhbat",
-    "start": 122.04,
-    "end": 122.62
+    "start": 121.96,
+    "end": 122.54
    },
    {
     "w": "aylanardi",
-    "start": 122.62,
-    "end": 123.56
+    "start": 122.54,
+    "end": 123.52
    },
    {
     "w": "baxtiyor",
-    "start": 123.56,
-    "end": 124.27
+    "start": 123.52,
+    "end": 124.25
    },
    {
     "w": "onimga",
-    "start": 124.27,
+    "start": 124.25,
     "end": 124.95
    }
   ],
-  "confidence": 0.75
+  "confidence": 0.84
  },
  {
   "index": 31,
   "singer": "Hasanboy",
-  "section": "Hasanboy kupleti",
+  "section": "Hasanboy 3-bo'lim",
   "line": "Hozir esa suhbatimiz aniq aylanadi jangga",
   "start": 124.95,
   "end": 128.69,
@@ -983,7 +983,7 @@
  {
   "index": 32,
   "singer": "Hasanboy",
-  "section": "Hasanboy kupleti",
+  "section": "Hasanboy 3-bo'lim",
   "line": "Xuddi ko'chalar to'lganda changga",
   "start": 128.76,
   "end": 130.92,
@@ -1009,12 +1009,12 @@
     "end": 130.92
    }
   ],
-  "confidence": 0.73
+  "confidence": 0.74
  },
  {
   "index": 33,
   "singer": "Hasanboy",
-  "section": "Hasanboy kupleti",
+  "section": "Hasanboy 3-bo'lim",
   "line": "Yetishmaydi havo tanga",
   "start": 130.96,
   "end": 132.7,
@@ -1035,12 +1035,12 @@
     "end": 132.7
    }
   ],
-  "confidence": 0.74
+  "confidence": 0.75
  },
  {
   "index": 34,
   "singer": "Hasanboy",
-  "section": "Hasanboy kupleti",
+  "section": "Hasanboy 3-bo'lim",
   "line": "Sensiz yetishmaydi havo tanga",
   "start": 132.75,
   "end": 134.79,
@@ -1048,11 +1048,11 @@
    {
     "w": "Sensiz",
     "start": 132.75,
-    "end": 133.21
+    "end": 133.2
    },
    {
     "w": "yetishmaydi",
-    "start": 133.21,
+    "start": 133.2,
     "end": 134.0
    },
    {
@@ -1066,24 +1066,24 @@
     "end": 134.79
    }
   ],
-  "confidence": 0.8
+  "confidence": 0.89
  },
  {
   "index": 35,
   "singer": "Hasanboy",
-  "section": "Hasanboy kupleti",
+  "section": "Hasanboy yakuni",
   "line": "San haqingda eslayapman so'ngi bor",
-  "start": 135.1,
-  "end": 137.91,
+  "start": 135.11,
+  "end": 137.9,
   "words": [
    {
     "w": "San",
-    "start": 135.1,
-    "end": 135.43
+    "start": 135.11,
+    "end": 135.44
    },
    {
     "w": "haqingda",
-    "start": 135.43,
+    "start": 135.44,
     "end": 136.15
    },
    {
@@ -1099,22 +1099,22 @@
    {
     "w": "bor",
     "start": 137.65,
-    "end": 137.91
+    "end": 137.9
    }
   ],
-  "confidence": 0.81
+  "confidence": 0.88
  },
  {
   "index": 36,
   "singer": "Hasanboy",
-  "section": "Hasanboy kupleti",
+  "section": "Hasanboy yakuni",
   "line": "So'nggi trek, so'nggi nota, so'nggi so'z",
-  "start": 138.03,
+  "start": 138.04,
   "end": 141.39,
   "words": [
    {
     "w": "So'nggi",
-    "start": 138.03,
+    "start": 138.04,
     "end": 138.62
    },
    {
@@ -1143,7 +1143,7 @@
     "end": 141.39
    }
   ],
-  "confidence": 0.74
+  "confidence": 0.85
  },
  {
   "index": 37,

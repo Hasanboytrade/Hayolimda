@@ -1,18 +1,108 @@
 {
-  "_izoh": "Bo'limlar xaritasi: har bo'lim lyrics.txt dagi qatorlar oralig'ini (1 dan boshlab, oxirgisi ham kiradi) trekdagi vaqt oralig'iga bog'laydi. Vaqtlar soniyada. Bir xil 'group' dagi bo'limlar (xor takrorlari) birgalikda align qilinadi: faollik o'rtachalanadi va start vokal chroma korrelyatsiyasi bilan ±0.5 s ichida aniqlashtiriladi. Xato bo'lsa shu yerda to'g'rilab, `python scripts/align_lyrics.py` ni qayta ishga tushiring.",
+  "_izoh": "Bo'limlar xaritasi: har bo'lim lyrics.txt dagi qatorlar oralig'ini (1 dan boshlab, oxirgisi ham kiradi) trekdagi vaqt oralig'iga bog'laydi. Vaqtlar soniyada. Bir xil 'group' dagi bo'limlar (xor takrorlari) birgalikda align qilinadi: faollik o'rtachalanadi va start vokal chroma korrelyatsiyasi bilan ±0.5 s ichida aniqlashtiriladi. Xato bo'lsa shu yerda to'g'rilab, `python scripts/align_lyrics.py` ni qayta ishga tushiring. 'uniform': true — qatorlar teng bo'linadi (masalan, har qator 1 takt).",
   "sections": [
-    { "name": "Rina xori (1a)", "lines": [1, 4], "start": 27.49, "end": 41.24, "group": "xor" },
-    { "name": "Rina xori (1b)", "lines": [5, 8], "start": 41.24, "end": 54.99, "group": "xor" },
-    { "name": "Rina bridge", "lines": [9, 16], "start": 55.9, "end": 83.4 },
-    { "name": "Hasanboy kupleti", "lines": [17, 36], "start": 86.9, "end": 141.4 },
     {
-      "name": "Rina xori (2a)", "lines": [37, 40], "start": 141.46, "end": 155.21, "group": "xor",
+      "name": "Rina xori (1a)",
+      "lines": [
+        1,
+        4
+      ],
+      "start": 27.49,
+      "end": 41.24,
+      "group": "xor"
+    },
+    {
+      "name": "Rina xori (1b)",
+      "lines": [
+        5,
+        8
+      ],
+      "start": 41.24,
+      "end": 54.99,
+      "group": "xor"
+    },
+    {
+      "name": "Rina bridge",
+      "lines": [
+        9,
+        16
+      ],
+      "start": 55.9,
+      "end": 83.4
+    },
+    {
+      "name": "Hasanboy 1-bo'lim",
+      "lines": [
+        17,
+        21
+      ],
+      "start": 87.0,
+      "end": 100.74,
+      "note": "Beat qaytishidan (87.0 s) 8 takt"
+    },
+    {
+      "name": "Hasanboy hook",
+      "lines": [
+        22,
+        25
+      ],
+      "start": 100.74,
+      "end": 107.61,
+      "uniform": true,
+      "note": "Har qator 1 takt: vokal MFCC'da 1.70–1.72 s davriy takrorlanish (o'xshashlik 0.52, fon 0.12)"
+    },
+    {
+      "name": "Hasanboy 2-bo'lim",
+      "lines": [
+        26,
+        29
+      ],
+      "start": 107.61,
+      "end": 121.35,
+      "note": "8 takt; 2 taktlik takrorlanish 107.6 s dan"
+    },
+    {
+      "name": "Hasanboy 3-bo'lim",
+      "lines": [
+        30,
+        34
+      ],
+      "start": 121.35,
+      "end": 135.09,
+      "note": "8 takt"
+    },
+    {
+      "name": "Hasanboy yakuni",
+      "lines": [
+        35,
+        36
+      ],
+      "start": 135.09,
+      "end": 141.4
+    },
+    {
+      "name": "Rina xori (2a)",
+      "lines": [
+        37,
+        40
+      ],
+      "start": 141.46,
+      "end": 155.21,
+      "group": "xor",
       "note": "Xor melodiyasi va registri (f0 ~247 Hz) 1-xor bilan mos keladi."
     },
     {
-      "name": "Rina xori (2b)", "lines": [41, 44], "start": 196.35, "end": 210.1, "group": "xor",
+      "name": "Rina xori (2b)",
+      "lines": [
+        41,
+        44
+      ],
+      "start": 196.35,
+      "end": 210.1,
+      "group": "xor",
       "confidenceCap": 0.5,
       "note": "Tuzilish taxminiy: xorning 2-yarmi 155.2 s dan (2a dan keyin darhol) ham boshlanishi mumkin. 155–196 s oralig'ida baland registrli vokaliz bor, so'zlar aniqlanmadi."
     }
-  ]
+  ],
+  "bar": 1.7183
 }
