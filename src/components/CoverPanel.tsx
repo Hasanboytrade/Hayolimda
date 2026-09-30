@@ -3,9 +3,9 @@ import { Easing, Img, interpolate, staticFile, useCurrentFrame, useVideoConfig }
 import { colors, fonts, layout, texts, track } from "../config";
 import { PlatformIcons } from "./PlatformIcons";
 
-type Props = { pulse: number };
+type Props = { pulse: number; dim?: number };
 
-export const CoverPanel: React.FC<Props> = ({ pulse }) => {
+export const CoverPanel: React.FC<Props> = ({ pulse, dim = 0 }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const t = frame / fps;
@@ -14,6 +14,12 @@ export const CoverPanel: React.FC<Props> = ({ pulse }) => {
   // Sekin "nafas": 1.00 -> 1.03 (~7 s davr) + bass'ga yengil pulse
   const breath = 1 + 0.015 * (1 - Math.cos((t / 7) * Math.PI * 2));
   const scale = breath + pulse * 0.012;
+
+  // Sekin 3D egilish (parallaks) va yaltiroq nur
+  const tiltY = Math.sin(t * 0.17) * 5;
+  const tiltX = Math.cos(t * 0.13) * 3;
+  const sheenPhase = (t % 11) / 11;
+  const sheen = -30 + sheenPhase * 260;
 
   const appear = interpolate(frame, [0, fps * 1.2], [0, 1], {
     extrapolateRight: "clamp",
@@ -36,19 +42,39 @@ export const CoverPanel: React.FC<Props> = ({ pulse }) => {
         gap: L.gap,
       }}
     >
-      <Img
-        src={staticFile(track.cover)}
+      <div
         style={{
-          width: L.coverSize,
-          height: L.coverSize,
-          borderRadius: L.radius,
-          objectFit: "cover",
-          opacity: appear,
-          transform: `translateY(${(1 - appear) * 20}px) scale(${scale})`,
-          boxShadow: `0 40px 90px rgba(0,0,0,${0.62 + pulse * 0.08}), 0 0 0 1px rgba(233,220,203,.06), 0 0 ${60 + pulse * 40}px rgba(216,180,140,${0.05 + pulse * 0.06})`,
+          perspective: 1400,
+          opacity: appear * (1 - dim * 0.55),
+          transform: `translateY(${(1 - appear) * 20}px)`,
         }}
-      />
-      <PlatformIcons variant="row" startFrame={Math.round(fps * 0.6)} />
+      >
+        <div
+          style={{
+            position: "relative",
+            width: L.coverSize,
+            height: L.coverSize,
+            borderRadius: L.radius,
+            overflow: "hidden",
+            transform: `rotateY(${tiltY.toFixed(3)}deg) rotateX(${tiltX.toFixed(3)}deg) scale(${scale})`,
+            boxShadow: `${(-tiltY * 4).toFixed(1)}px 40px 90px rgba(0,0,0,${0.62 + pulse * 0.08}), 0 0 0 1px rgba(233,220,203,.06), 0 0 ${60 + pulse * 40}px rgba(216,180,140,${0.05 + pulse * 0.06})`,
+          }}
+        >
+          <Img src={staticFile(track.cover)} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+          {/* Yaltiroq nur: har ~11 s da cover ustidan o'tadi */}
+          <div
+            style={{
+              position: "absolute",
+              inset: 0,
+              background: `linear-gradient(115deg, rgba(255,240,220,0) ${sheen - 12}%, rgba(255,240,220,.16) ${sheen}%, rgba(255,240,220,0) ${sheen + 12}%)`,
+              mixBlendMode: "screen",
+            }}
+          />
+        </div>
+      </div>
+      <div style={{ opacity: 1 - dim * 0.6 }}>
+        <PlatformIcons variant="row" startFrame={Math.round(fps * 0.6)} />
+      </div>
       <div
         style={{
           fontFamily: fonts.ui,
@@ -56,7 +82,7 @@ export const CoverPanel: React.FC<Props> = ({ pulse }) => {
           fontWeight: 300,
           letterSpacing: ".14em",
           color: colors.caption,
-          opacity: caption,
+          opacity: caption * (1 - dim * 0.6),
         }}
       >
         {texts.listenEverywhere}

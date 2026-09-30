@@ -30,6 +30,7 @@ export const voices: Record<Singer, { label: string; color: string; glow: string
 };
 
 export const colors = {
+  frost: "#d6ecff",
   bg: "#0a0705",
   ink: "#f1e4d1", // asosiy matn (krem)
   inkSoft: "#e9dccb",
@@ -84,10 +85,41 @@ export const iconStyle: "mono" | "original" = "mono"; // mono: krem rangdagi sil
 export const timing = {
   introSeconds: 3,
   outroSeconds: 4,
-  /** Qator shuncha soniya oldin "faol" bo'ladi (ko'z oldindan o'qishi uchun) */
-  lineLead: 0.15,
+  /** Qator shuncha soniya oldin kattalasha boshlaydi — aytilish boshlanganda u to'liq tayyor turadi */
+  lineLead: 0.3,
+  /** So'z shuncha soniya oldin yonadi (ko'z quloqdan oldin ko'rishi kerak — kechikish hissi bo'lmaydi) */
+  wordLead: 0.1,
+  /** So'z yonish tezligi (soniya): rep uchun tez, kuylash uchun yumshoqroq */
+  wordAttack: { Rina: 0.2, Hasanboy: 0.1 } as Record<Singer, number>,
   /** Shu soniyadan uzun matnsiz joy — instrumental (equalizer + trek nomi) */
   instrumentalGap: 3.5,
+};
+
+/**
+ * Trekdagi alohida momentlar (soniyada, audio tahlildan o'lchangan).
+ */
+export const moments = {
+  /** Intro'dan xorga o'tish: beat to'liq kiradigan zarba — sarlavha parchalanadi, flash + to'lqin */
+  introDrop: 27.01,
+  /** Telefon gudogi (480+620 Hz "band" signali): har bir gudok boshlanishi va uzunligi */
+  phoneBeeps: [82.72, 83.58, 84.47, 85.37],
+  phoneBeepLength: 0.53,
+  phoneScene: [82.55, 87.0] as [number, number],
+  /** Gudokdan keyin Hasanboy kupleti boshlanadigan kuchli zarba (+16 dB bass) */
+  verseDrop: 87.0,
+  /** Katta flash'lar */
+  flashes: [
+    { t: 27.01, rgb: "255,214,170", strength: 1 },
+    { t: 87.0, rgb: "190,215,240", strength: 1 },
+    { t: 141.4, rgb: "255,214,170", strength: 0.55 },
+    { t: 196.3, rgb: "255,214,170", strength: 0.45 },
+  ],
+  /** "So'nggi trek, so'nggi nota, so'nggi so'z" — alohida kinetik sahna */
+  lastWordsLine: 36,
+  /** Bo'g'ilish effekti (matn titraydi, nafas yetmaydi) */
+  chokeLines: [33, 34],
+  /** Alohida so'z effektlari */
+  wordEffects: [{ line: 13, word: "muzlab", effect: "frost" as const }],
 };
 
 export const layout = {
@@ -102,8 +134,6 @@ export const layout = {
     singleLineMinSize: 66,
     inactiveSize: 44,
     gap: 40,
-    labelHeight: 24,
-    labelGap: 18,
   },
 };
 
@@ -117,6 +147,10 @@ export const moods = {
   Hasanboy: { brightness: 0.35, cool: 1, dust: 0.55, haze: 0.15, rain: 0.6 },
   // "Xuddi ko'chalar to'lganda changga / Yetishmaydi havo tanga" — changli ko'cha, bo'g'ilish
   dust: { brightness: 0.3, cool: 0.4, dust: 1, haze: 0.85, rain: 0 },
+  // Telefon gudogi: chiroqlar o'chayotgandek
+  phone: { brightness: 0.1, cool: 0.55, dust: 0.12, haze: 0, rain: 0 },
+  // "So'nggi trek, so'nggi nota, so'nggi so'z"
+  lastWords: { brightness: 0.2, cool: 0.8, dust: 0.5, haze: 0.1, rain: 0.3 },
 };
 
 /** Changli kayfiyat qo'llanadigan qatorlar (lyrics.txt dagi tartib raqami) */

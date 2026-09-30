@@ -82,6 +82,7 @@ export const Background: React.FC<Props> = ({ mood, pulse }) => {
         }}
       />
 
+      <LightCone t={t} strength={0.55 + mood.brightness * 0.45 + pulse * 0.35} rgb={glowRgb} />
       <Fog t={t} amount={0.5 + mood.haze * 0.5} rgb={mixRgb("200,170,140", "150,160,175", mood.cool)} />
       <Bokeh t={t} rgb={glowRgb} intensity={0.6 + mood.brightness * 0.4 + pulse * 0.3} />
       <Butterflies t={t} cool={mood.cool} />
@@ -261,5 +262,39 @@ const Rain: React.FC<{ t: number; amount: number; width: number; height: number 
         })}
       </g>
     </svg>
+  );
+};
+
+/* ---------------------------------------------------------------- Fonar nuri (cover'dagi kabi) */
+const LightCone: React.FC<{ t: number; strength: number; rgb: string }> = ({ t, strength, rgb }) => {
+  // Ko'cha fonari kabi juda yengil miltillash
+  const flicker = 0.92 + 0.05 * Math.sin(t * 7.3) + 0.03 * Math.sin(t * 17.1 + 1.3);
+  const a = 0.14 * strength * flicker;
+  return (
+    <>
+      <div
+        style={{
+          position: "absolute",
+          left: 470 - 520,
+          top: -40,
+          width: 1040,
+          height: 1120,
+          clipPath: "polygon(43% 0%, 57% 0%, 100% 100%, 0% 100%)",
+          background: `linear-gradient(180deg, ${rgba(rgb, a)} 0%, ${rgba(rgb, a * 0.45)} 45%, ${rgba(rgb, 0)} 92%)`,
+          filter: "blur(18px)",
+        }}
+      />
+      <div
+        style={{
+          position: "absolute",
+          left: 470 - 160,
+          top: -120,
+          width: 320,
+          height: 240,
+          borderRadius: "50%",
+          background: `radial-gradient(ellipse at 50% 50%, ${rgba(rgb, a * 2.2)}, ${rgba(rgb, 0)} 70%)`,
+        }}
+      />
+    </>
   );
 };

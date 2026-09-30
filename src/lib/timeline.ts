@@ -1,6 +1,6 @@
 import lyricsData from "../data/lyrics.json";
 import audioData from "../data/audio-analysis.json";
-import { dustLines, moods, timing, type Singer } from "../config";
+import { dustLines, moments, moods, timing, type Singer } from "../config";
 
 export type Word = { w: string; start: number; end: number };
 export type LyricLine = {
@@ -82,10 +82,12 @@ export const instrumentalAmount = (t: number, ranges: [number, number][]): numbe
 export type Mood = { brightness: number; cool: number; dust: number; haze: number; rain: number };
 
 const moodTarget = (t: number, ranges: [number, number][]): Mood => {
+  if (t >= moments.phoneScene[0] && t < moments.phoneScene[1]) return moods.phone;
   if (instrumentalAmount(t, ranges) > 0.5 || t < lyrics[0]?.start - 1) return moods.instrumental;
   const i = activeLineIndex(t);
   const line = lyrics[Math.max(0, i)];
   if (dustLines.includes(line.index)) return moods.dust;
+  if (line.index === moments.lastWordsLine) return moods.lastWords;
   return moods[line.singer];
 };
 
