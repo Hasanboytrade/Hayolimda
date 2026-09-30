@@ -24,7 +24,8 @@ scripts/
 src/
   config.ts                     ranglar, shriftlar, ikonlar, nomlar, ovoz ranglari, kayfiyatlar — hammasi shu yerda
   LyricVideo.tsx                asosiy kompozitsiya
-  components/                   Background, CoverPanel, PlatformIcons, LyricsPanel, Visualizer, Outro
+  components/                   Background, CoverPanel, PlatformIcons, LyricsPanel, Visualizer, Outro,
+                                Effects (flash, shockwave, grain), PhoneCall (gudok sahnasi), LastWords ("So'nggi" sahnasi)
   lib/timeline.ts               faol qator, instrumental joylar, kayfiyat, bass pulse
   data/                         lyrics.json, audio-analysis.json, palette.json
 ```
@@ -81,10 +82,30 @@ Bu skript model vaznlarini `dl.fbaipublicfiles.com` va Whisper serverlaridan yuk
 - **Bitta qator yoki so'z uchun:** `src/data/lyrics.json` da `start`, `end` va `words[].start/end` ni to'g'ridan-to'g'ri tahrirlang (soniyada). Studio'da darhol ko'rinadi.
 - **Ishonchi past qatorlar:** ro'yxat `analysis/alignment_report.md` da.
 
+## Maxsus momentlar (`moments`, `src/config.ts`)
+
+| Vaqt | Moment |
+|---|---|
+| 27.01 s | Intro drop: "Xayolimda" harflari parchalanadi, flash, shockwave, kamera punch; xor boshlanadi |
+| 82.72 / 83.58 / 84.47 / 85.37 s | Telefon gudogi (480+620 Hz): har gudokda to'lqin, osiloskop, oxirida "Aloqa uzildi" |
+| 87.00 s | Hasanboy drop: sovuq flash, shockwave, tebranish |
+| 13-qator "muzlab" | So'z muzlaydi |
+| 33–34-qatorlar | "Yetishmaydi havo tanga": chang pardasi, matn titraydi |
+| 36-qator | "So'nggi trek, so'nggi nota, so'nggi so'z": SO'NGGI joyida turadi, keyingi so'z almashadi |
+
+Vaqtlar audio tahlilidan o'lchangan. Siljitish kerak bo'lsa, `moments` dagi qiymatlarni o'zgartiring.
+
+Tez tekshirish uchun kerakli soniyalardagi kadrlarni chiqarish mumkin:
+
+```bash
+node scripts/stills.mjs 27.1 83.7 139.8     # -> out/stills/*.png
+```
+
 ## Sozlash (`src/config.ts`)
 
-- **`voices`:** Rina (iliq `#e8b98a`) va Hasanboy (sovuq `#8fa3b5`) ranglari va yorliqlari.
+- **`voices`:** Rina (iliq `#e8b98a`) va Hasanboy (sovuq `#8fa3b5`) ranglari. Aytilayotgan so'z shu rangda yonadi.
+- **`timing.lineLead` / `wordLead` / `wordAttack`:** qator va so'zlar qanchalik oldindan yonishi (matn kech qolmasligi uchun).
 - **`fonts.lyrics`:** standart qiymati `"Jost"` (dizayn fayllaridagi shrift). `"Montserrat"` yoki `"Inter"` ga almashtirish mumkin.
 - **`platforms` va `iconStyle`:** `"mono"` barcha ikonlarni krem rangdagi silueta qiladi. O'z rangli ikonlaringizni `public/icons/` ga qo'yib, `"original"` qiling.
-- **`timing`:** intro 3 s, outro 4 s, instrumental chegarasi.
+- **`timing`:** intro 3 s, outro 4 s, instrumental chegarasi, oldindan yonish vaqtlari.
 - **`moods` va `dustLines`:** har bo'lim uchun fon yorqinligi, sovuq tus, zarrachalar zichligi va chang pardasi.
